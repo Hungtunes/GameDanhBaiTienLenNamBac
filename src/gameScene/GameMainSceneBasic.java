@@ -41,8 +41,8 @@ public class GameMainSceneBasic<T extends TienLenGame> {
 			cardPane.getChildren().clear();
 			// cardPane.getChildren().clear();
 			// Đặt text cho playerLabel
-			playerLabel.setText("Người chơi số " + (gameType.getNowPlayerNum() + 1) + ": "
-					+ gameType.getNowPlayer().getPlayerName() + " - Số bài còn lại: " + gameType.getNowPlayer().size());
+			playerLabel.setText("Người chơi số " + (gameType.getNowPlayerNum() + 1) + " - Số bài còn lại: "
+					+ gameType.getNowPlayer().size());
 			playerLabel.setFont(Font.font("Arial", 30));
 			if (gameType.getNowPlayer() != null && gameType.getNowPlayer().getCards() != null) {
 				for (Card card : gameType.getNowPlayer().getCards()) {

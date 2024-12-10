@@ -9,5 +9,5 @@ module BaiTapLonNhom5_OOP_TrinhTuanDat {
 	// Xuất package 'controller' để JavaFX có thể truy cập
 	opens controller to javafx.fxml;
 
-	exports controller;
+	exports application;
 }
